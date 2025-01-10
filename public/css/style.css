@@ -1,0 +1,74 @@
+:root {
+    --background-color: white;
+    --background-alt-color: #f0f0f0;
+    --accent-color: #60a5fa;
+    --text-color: black;
+    --text-alt-color: white;
+    --warning-color: #ebe66a;
+    --error-color: #fc7268;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0rem 32rem;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 { margin: 0rem; }
+h2 { margin: 0rem; }
+h3 { margin: 0rem; }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-button {
+    margin-left: 1rem;
+    font-size: .9rem;
+}
+.navbar-button:hover {
+    border-bottom: 2px solid black;
+}
+
+input {
+    padding: .4rem .4rem;
+    border-style: none;
+    border-radius: .25rem;
+    background-color: #f0f0f0;
+}
+
+select {
+    padding: .4rem .4rem;
+    border-style: none;
+    border-radius: .25rem;
+    background-color: #f0f0f0;
+}
+
+textarea {
+    padding: .4rem .4rem;
+    border-style: none;
+    border-radius: .25rem;
+    resize: none;
+    background-color: #f0f0f0;
+}
+
+.submit-button {
+    padding: .5rem;
+    border-radius: .25rem;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background-color: #60a5fa;
+}
